@@ -14,11 +14,13 @@
     padding: 18px 35px;
     border: none;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 20px;}
     
-
-
+.text_center{
+    text-align: center;
 }
+
+
 .header{
     background-image: url('../images/developer.png'),url('../images/header_bg.png');
     background-position: top left,bottom right;
@@ -105,7 +107,11 @@ main{
     text-align: center;
     margin-top: 130px;
     
+}
 
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 .about_items{
     display: flex;
@@ -117,4 +123,14 @@ main{
 }
 .container{
     border: solid #757575;
+}
+.skills_container{
+    display: flex;
+    gap: 24px;
+    padding: 30px;
+}
+.skills{
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06)
 }
